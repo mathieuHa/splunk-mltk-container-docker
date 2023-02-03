@@ -19,7 +19,7 @@ else
 fi
 case $tag in
 	template-cpu)
-		base="python:3.9.13-bullseye"
+		base="python:3.9.16-bullseye"
 		dockerfile="Dockerfile.5.0.0.minimal.cpu.template"
 		;;
 	template-gpu)
@@ -27,7 +27,7 @@ case $tag in
 		dockerfile="Dockerfile.5.0.0.minimal.gpu.template"
 		;;
 	golden-image-cpu)
-		base="python:3.9.13-bullseye"
+		base="python:3.9.16-bullseye"
 		dockerfile="Dockerfile.5.0.0.cpu"
 		;;
 	golden-image-gpu)
